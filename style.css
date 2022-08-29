@@ -1,0 +1,78 @@
+body {
+	font-family: 'Shabnam';
+	font-size: 14px;
+	line-height: 1.618;
+}
+
+#login , #register{
+	width:350px;
+	margin:30px auto; 
+}
+
+.costum-label{
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+
+
+.costum-input {
+	display: block;
+    width: 100%;
+	box-sizing:border-box; 
+	padding: 4px 5px;
+	font-family: 'Shabnam';
+}
+
+.costum-button {
+	padding: 4px 15px;
+	box-sizing: border-box;
+	font-family: 'Shabnam';
+
+}
+
+.birthday-input{
+	width:33.333%;
+	float: right;
+}
+
+.costum-radio-option {
+	margin-left: 10px;
+
+}
+
+.costum-radio {
+	margin-top: 0px;
+	vertical-align: middle;
+}
+
+fieldset{
+	margin: 0;
+	padding: 15px 15px 0 15px;
+	border: 1px solid #857b7a;
+}
+
+legend{
+	padding: 0 5px;
+	font-weight: bold;
+	border: 1px solid #555;
+}
+
+.clearfix::after {
+	display: table;
+	clear: both;
+	content: '';
+}
+
+#contact-us{
+	margin: 30px auto;
+	width: 400px;
+}
+
+.costum-textarea{
+	resize: vertical;
+}

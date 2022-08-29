@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body dir="rtl">
+	<div id="login">
+		<form method="post">
+			<fieldset>
+				<legend>فرم ورود کاربر</legend>
+			    <div class="form-group">
+				<label for="field-username-login" class="costum-label">نام کاربری:</label>
+				<input type="text" name="username" id="field-username-login" class="costum-input" maxlength="15" placeholder="نام کاربری خود را به زبان انگلیسی وارد کنید" required>
+
+
+			</div>
+			<div class="form-group">
+				<label for="field-passeord-login" class="costum-label">رمز عبور را وارد کنید:</label><br>
+				<input type="password" name="password" id="field-passeord-login" class="costum-input" minlength="8" required placeholder="رمز عبور باید بیش از هشت کرکتر باشد.">
+
+				<div class="form-group"><br>
+					<label class="costum-radio-option">
+						   <input type="checkbox" name="remember-me" class="costum-radio">مرا به یاد داشته باش.
+					</label>
+				</div>
+
+
+
+			</div>
+			
+			<div class="form-group">
+				<input type="submit" class="costum-button" value="ورود">
+			</div>
+			</fieldset>
+
+
+
+		</form>
+	</div>
+
+	<div id="register">
+		<form method="post">
+			<fieldset>
+				<legend>فرم ثبت نام کاربر</legend>
+				<div class="form-group">
+					<label for="field-username-register" class="costum-label">نام کاربری</label>
+					<input type="type" name="username" id="field-username-register" class="costum-input" maxlength="15" placeholder="نام کاربری خود را به زبان انگلیسی وارد کنید" required>
+					
+				</div>
+
+				<div class="form-group">
+					<label for="field-first-name" class="costum-label">نام:</label>
+					<input type="type" name="firstname" id="first-name" class="costum-input" maxlength="15" placeholder="مثلاً:بهار" required>
+					</div>
+
+					<div class="form-group">
+					<label for="field-last-name" class="costum-label">نام خانوادگی:</label>
+					<input type="type" name="firstname" id="last-name" class="costum-input" maxlength="15" placeholder="مثلاً:توفیق" required>
+					</div>
+
+					<div class="form-group clearfix">
+					<label for="field-birthday" class="costum-label">تاریخ تولد:</label><br>
+					<input type="number" name="birthday" id="field-birthday" class="costum-input birthday-input" max="1" min="31" placeholder="روز تولد" required>
+					<select name="birthday-month" class="costum-input birthday-input">
+						<option>Farvardin</option>
+						<option>Ordibehesht</option>
+						<option>Khordad</option>
+						<option>Tir</option>
+						<option>Mordad</option>
+						<option>Shahrivar</option>
+						<option>Mehr</option>
+						<option>Abban</option>
+						<option>Azar</option>
+						<option>Day</option>
+						<option>Bahman</option>
+						<option>Esfand</option>
+					</select>
+					<input type="number" name="birthday-year"  class="costum-input birthday-input" max="1440" min="1300" placeholder="سال تولد" required>
+					</div>
+
+					<div class="form-group">
+						<label class="costum-label">جنسیت:</label><br>
+						<label class="costum-radio-option">
+						    <input type="radio" name="gender" value="female" class="costum-radio">زن	
+						</label>
+
+						<label class="costum-radio-option">
+						    <input type="radio" name="gender" value="male" class="costum-radio">مرد	
+						</label>
+						
+						
+					</div>
+
+
+
+					<div class="form-group">
+				<label for="field-passeord-register" class="costum-label">رمز عبور را وارد کنید:</label><br>
+				<input type="password" name="password" id="field-username-register" class="costum-input" minlength="8" required placeholder="رمز عبور باید بیش از هشت کرکتر باشد." size="40">
+
+				<div class="form-group">
+				<label for="field-repeat-passeord-register" class="costum-label">تکرار کلمه عبور:</label><br>
+				<input type="password" name="repeat-password" id="field-repeat-passeord-register" class="costum-input" minlength="8" size="40">
+
+				<div class="form-group"><br>
+					<label class="costum-radio-option">
+						    <input type="checkbox" name="accept-rule" class="costum-radio">من قوانین را خوانده و پذیرفته ام.
+					</label>
+				</div>
+
+
+
+
+			</div>
+			<div class="form-group">
+				<input type="submit" class="costum-button" value="ثبت نام">
+			</div>
+
+			</fieldset>
+			
+		</form>
+		
+	</div>
+
+	<div id="contact-us">
+		<form method="get">
+			<fieldset>
+				<legend>تماس با ما</legend>
+
+				<div class="form-group">
+				<label for="field-fullname" class="costum-label">نام و نام خانوادگی:</label>
+				<input type="text" name="fullname" id="field-fullname" class="costum-input" maxlength="35" placeholder="لطفاً نام و نام خانوادگی خود را وارد کنید" required>
+				</div>
+
+				<div class="form-group">
+				<label for="field-phone" class="costum-label">شماره موبایل:</label>
+				<input type="text" name="phone"" id="field-phone"" class="costum-input" maxlength="11" placeholder="مثال 09126745893" required>
+				</div>
+
+				<div class="form-group">
+				<label for="field-fullname" class="costum-label">پست الکترونیک:</label>
+				<input type="email" name="fullname" id="field-fullname" class="costum-input" placeholder="بدون ورود www" required>
+				</div>
+
+				<div class="form-group">
+				<label for="field-message" class="costum-label">نظر شما:</label>
+				<textarea name="message" id="field-message" class="costum-input costum-textarea" placeholder="نظرات شما" rows="6"></textarea>
+				
+				</div>
+
+				<div class="form-group">
+				<input type="submit" class="costum-button" value="ارسال پیام">
+			</div>
+
+
+			
+			</fieldset>
+			
+		</form>
+	</div>
+
+</body>
+</html>
